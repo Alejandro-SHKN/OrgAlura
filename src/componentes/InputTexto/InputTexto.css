@@ -1,0 +1,29 @@
+.div__containerInputsAndLabel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.div__containerInputs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.labelInput{
+    color: black;
+    margin-bottom: 20px ;
+    font-weight: 700;
+    font-family: sans-serif; 
+}
+.inputTexto{
+    color: black;
+    margin-bottom: 56px ;
+    width: 80%;
+    height: 80px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    font-size: 21px;
+}

@@ -1,0 +1,25 @@
+.label__EquipoSelect{
+    color: black;
+    margin-bottom: 20px ;
+    font-weight: 700;
+    font-family: sans-serif; 
+}
+.div__containerSelect{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.select__EquipoSelect{
+    margin-bottom: 56px;
+    width: 80%;
+    height: 80px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px ;
+    font-family: sans-serif; 
+}
