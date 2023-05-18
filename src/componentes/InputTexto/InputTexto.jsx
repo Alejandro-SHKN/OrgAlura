@@ -8,7 +8,7 @@ const InputTexto = (props)=> {
         <>
     <div className='div__containerInputsAndLabel'>
         <label className='labelInput' htmlFor="inputTexto">{props.titulo}</label>
-        <input className='inputTexto' type="text" placeholder= {`${props.placeholder}`}/>
+        <input className='inputTexto' type="text" placeholder= {`${props.placeholder}`} />
     </div>
     </>
     )

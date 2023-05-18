@@ -13,12 +13,11 @@ function Formulario() {
   return (
     <>
       <div className="div__PadreFormulario">
-              crear2
-        <form onSubmit={manejarEnvio}>
+        <form onSubmit={manejarEnvio} >
           <div className="divContainerH3">
             <h3 className="h3__Titulo">Rellena el formulario para crear el colaborador.</h3>
             <div className="div__containerInputs">
-              <InputTexto titulo="Nombre" placeholder="Ingresar su nombre"/>
+              <InputTexto titulo="Nombre" placeholder="Ingresar su nombre" isRequired={true} />
               <InputTexto titulo="Puesto" placeholder="Ingresar su puesto"/>
               <InputTexto titulo="Foto" placeholder="Ingresar enlace de foto"/>
               <EquipoSelect/>
